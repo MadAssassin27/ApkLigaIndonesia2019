@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ligaindonesia">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TIRAPersikaboPemain"></activity>
+        <activity android:name=".SemenPadangPemain" />
+        <activity android:name=".PSSSlemanPemain" />
+        <activity android:name=".PSMMakassarPemain" />
+        <activity android:name=".PSISSemarangPemain" />
+        <activity android:name=".PersipuraJayapuraPemain" />
+        <activity android:name=".PersijaJakartaPemain" />
+        <activity android:name=".PersibBandungPemain" />
+        <activity android:name=".PerseruBadakPemain" />
+        <activity android:name=".PerselaLamonganPemain" />
+        <activity android:name=".PersebayaSurabayaPemain" />
+        <activity android:name=".MaduraUnitedPemain" />
+        <activity android:name=".KaltengPutraPemain" />
+        <activity android:name=".BorneoFCPemain" />
+        <activity android:name=".BhayangkaraFCPemain" />
+        <activity android:name=".BaritoPuteraPemain" />
+        <activity android:name=".BaliUnitedPemain" />
+        <activity android:name=".AremaFCPemain" />
+        <activity android:name=".TIM" />
+        <activity android:name=".TIRAPersikabo" />
+        <activity android:name=".SemenPadangFC" />
+        <activity android:name=".PSSSleman" />
+        <activity android:name=".PSMMakassar" />
+        <activity android:name=".PSISSemarang" />
+        <activity android:name=".PersipuraJayapura" />
+        <activity android:name=".PersijaJakarta" />
+        <activity android:name=".PerseruBadak" />
+        <activity android:name=".PerselaLamongan" />
+        <activity android:name=".PersebayaSurabaya" />
+        <activity android:name=".MaduraUnited" />
+        <activity android:name=".KaltengPutra" />
+        <activity android:name=".BorneoFC" />
+        <activity android:name=".BhayangkaraFC" />
+        <activity android:name=".BaritoPutera" />
+        <activity android:name=".BaliUnited" />
+        <activity android:name=".AremaFC" />
+        <activity android:name=".PersibBandung" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

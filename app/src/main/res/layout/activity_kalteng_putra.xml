@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KaltengPutra">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/tablelayoutid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kalteng" />
+
+    <TableLayout
+        android:id="@+id/tablelayoutid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <TableRow
+            android:id="@+id/rowkalteng"
+            android:background="@color/colorPrimaryDark"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Kalteng Putra" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowkandang"
+            android:background="@color/colorPrimary"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Kandang" />
+        </TableRow>
+
+        <TableRow
+            android:background="#ECEFF1"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:text="Tuah Pahoe" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowpelatih"
+            android:background="@color/colorPrimary"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Pelatih" />
+        </TableRow>
+
+        <TableRow
+            android:background="#ECEFF1"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:text="Kas Hartadi" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowinfo"
+            android:background="@color/colorPrimary"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Info" />
+        </TableRow>
+
+        <TableRow
+            android:background="#ECEFF1"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:text="Kalteng Putra FC adalah singkatan dari Putra Kalimantan Tengah Football Club yang dulu bernama Persepar Palangkaraya. Kalteng Putra FC adalah klub sepak bola yang berasal dari Kota Palangka Raya, Kalimantan Tengah. Sekarang Kalteng Putra FC bermain di kompetisi Liga 1, Kalteng Putra FC memiliki julukan Laskar Isen Mulang, atau bisa juga di sebut Enggang Borneo yaitu burung asli pulau Kalimantan, Laskar Isen Mulang sendiri yang berarti laskar pantang mundur / pantang menyerah. Kalteng Putra FC juga memiliki warna khusus yang sering dipakai para pendukung fanatiknya, Kalteng Mania yakni warna Bahandang yang diambil dari Bahasa Dayak yaitu merah yang mempunyai arti pemberani. Memiliki slogan Ela Mikeh! berbahasa dayak yang berarti Jangan Takut! yang memicu semangat tim di setiap laga pertandingan. Stadion kandang Kalteng Putra FC adalah Stadion Tuah Pahoe yang berada di Jalan Tjilik Riwut Km. 5 Palangka Raya." />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Pemain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tablelayoutid"
+        android:onClick="kaltengpemain"/>
+
+</android.support.constraint.ConstraintLayout>

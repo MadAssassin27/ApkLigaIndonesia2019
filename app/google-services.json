@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "187940728353",
+    "firebase_url": "https://liga-indonesia-80fc1.firebaseio.com",
+    "project_id": "liga-indonesia-80fc1",
+    "storage_bucket": "liga-indonesia-80fc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187940728353:android:b843a4690459b0a8",
+        "android_client_info": {
+          "package_name": "com.example.ligaindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187940728353-ik1324ieupkggctbnbfgnmb5r4vosrfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ligaindonesia",
+            "certificate_hash": "e26483b5ff02ecce2e899a3b10962153779c3701"
+          }
+        },
+        {
+          "client_id": "187940728353-95gudu8t11igbumtmav6fc9p3j3bn0th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFezZj6IasZteqJ32d6BDwMEuWOW349vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187940728353-95gudu8t11igbumtmav6fc9p3j3bn0th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

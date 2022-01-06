@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Liga Indonesia</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="persebaya">\@string/peserbaya</string>
+    <string name="arema">arema</string>
+    <string name="borneo">borneo</string>
+    <string name="barito">barito</string>
+    <string name="bhayangkara">bhayangkara</string>
+    <string name="bali">bali</string>
+    <string name="kalteng">kalteng</string>
+    <string name="madura">madura</string>
+    <string name="persela">persela</string>
+    <string name="perseru">perseru</string>
+    <string name="persib">persib</string>
+    <string name="persija">persija</string>
+    <string name="persipura">persipura</string>
+    <string name="psis">psis</string>
+    <string name="psm">psm</string>
+    <string name="pss">pss</string>
+    <string name="semen">semen</string>
+    <string name="tira">tira</string>
+    <string name="arema_txt">\@string/Arema</string>
+</resources>

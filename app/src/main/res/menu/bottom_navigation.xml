@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Beranda"/>
+
+    <item
+        android:id="@+id/nav_klasemen"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="Klasemen"/>
+
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="Info"/>
+
+
+</menu>

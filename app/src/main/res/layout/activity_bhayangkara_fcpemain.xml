@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BhayangkaraFCPemain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/tablelayoutid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bhayangkara" />
+
+        <TableLayout
+            android:id="@+id/tablelayoutid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TableRow
+                android:id="@+id/rowpemain"
+                android:background="@color/colorPrimaryDark"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Pemain" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowpenjagagawang"
+                android:background="@color/colorPrimary"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Penjaga Gawang" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="12. Awan Setho Raharjo" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="38. Indra Nugraha" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="1. Nugroho W." />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/rowpemainbelakang"
+                android:background="@color/colorPrimary"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Pemain Belakang" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="32. N. Haris" />
+
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="17. A. Putra Masat Sanda" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="2. I Putu Gede Juni Antara" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="27. Indra Kahfi Ardhiyaksa" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="5. Rochman Muhammad Fatchu" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="4. Anderson Salles" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/rowpemaintengah"
+                android:background="@color/colorPrimary"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Pemain Tengah" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="89. Lee Yoo-Joon" />
+
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="8. M. Hargianto" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="20. S. Fauzi" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="7. V. Mofu" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="99. Rachmad Hidayat" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="18. Adam Alis Setyano" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="23. Wahyu Subo Seto" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="87. Flavio" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="98. Maulana Reksa" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/rowpenyerang"
+                android:background="@color/colorPrimary"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Penyerang" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="17. M. Nur Iskandar" />
+
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="10. Jajang Mulyana" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="99. Dzumafo Epandi" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="20. Ilham Udin A." />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="7. Fergonzi Ramiro" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="51. Dendi Sulistyawan" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
